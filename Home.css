@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(237, 233, 172);
+    
+}
+
+nav {
+background-color: white;
+display: flex;
+padding: 0px;
+position: relative;
+border: 3px solid black;
+}
+
+#site-logo {
+    background-color: white;
+    height: 90px;
+    width: auto;
+    position: relative;
+}
+
+#site-name {
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+
+#home-link {
+    color: rgb(12, 7, 2);
+    text-decoration: none;
+}
+
+
+.link {
+    background-color: rgb(141, 101, 10);
+    border-color: black;
+    border-radius: 4px;;
+    color: rgb(12, 7, 2);
+    text-decoration: none;
+    float: right;
+    padding: 8px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+.link:hover {
+    color: white;
+    transition: all 0.4s ease-in;
+}
+
+.link::after {
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    pointer-events: none;
+
+}
+
+.link:hover::after {
+    opacity: 1;
+}
+
+.main-content {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#have-fun{
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+#spinning-kitty-container {
+   text-align: center;
+}
+
+#spinning-kitty {
+    height: 100px;
+    
+}
+
+#cat-fact-container {
+   display: grid;
+   justify-content: center;
+   align-content: center;
+   grid-auto-flow: column;
+   gap: 15px;
+}
+
+.cat-fact{
+    background-color: white;
+    padding:10px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#cat-breeds {
+    height: 450px;
+    width: auto;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#dyk {
+    text-align: center;
+}
+
+#cat-stats {
+    height: auto;
+    width: 400px;   
+}
+
+h3 {
+    text-align: center;
+}
+
+hr {
+    width: 75%;
+    color: black;
+}
+
+.video-container {
+display: flex;
+align-content: center;
+justify-content: center;
+text-align: center;
+}
+
+.video {
+    border: 2px solid black;
+    margin: 5px;
+}
+
+footer {
+    font-weight: bold;
+    background-color:  rgb(141, 101, 10);
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}

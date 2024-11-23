@@ -1,0 +1,43 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <title>The Cat Page</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" type="text/css" media="screen" href="Upload.css" />
+   <link rel="icon" type="image/x-icon" href="Cat API icon.jpeg">
+</head>
+<body>
+
+<header>
+<nav>
+<img id="site-logo" src="Cat API icon.jpeg"/>
+<h3 id="site-name"><a id="home-link" href="Home.html">Kitty Korner.com</a></h3>
+</nav>
+</header>
+<div id="link-container">
+<a class="link" href="Generate.html">Generate a Kitty!</a>
+<a class="link" href="Upload.html">Submit Your Own Kitty!</a>
+</div>
+<br>
+<br>
+
+<div class="layout">
+<form class="layout-item" id="form" method="post" enctype="multipart/form-data">
+<label class="layout-item" for="images">Choose Kitty to Upload!</label>
+<input class="layout-item" type="file" id="file" name="images" accept=".jpg, .jpeg, .png" />
+<br>
+<br>
+<button class="layout-item" id="submit" type="submit">Upload a Kitty! ₍^. .^₎⟆</button>
+</form>
+</div>
+<br>
+
+<footer>
+<p>Credits to TheCATAPI.com</p>
+</footer>
+<script src="Upload.js"></script>
+</body>
+</html>

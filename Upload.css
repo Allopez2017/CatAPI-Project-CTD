@@ -1,0 +1,104 @@
+body {
+    background-image: url('Cat\ Background.jpg');
+    background-color: rgb(237, 233, 172);
+}
+
+nav {
+background-color: white;
+display: flex;
+padding: 0px;
+position: relative;
+border: 3px solid black;
+}
+
+#site-logo {
+    background-color: white;
+    height: 90px;
+    width: auto;
+    position: relative;
+}
+
+#site-name {
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+}
+
+#home-link {
+    color: rgb(12, 7, 2);
+    text-decoration: none;
+}
+
+
+.link {
+    background-color: rgb(141, 101, 10);
+    border-color: black;
+    border-radius: 4px;;
+    color: rgb(12, 7, 2);
+    text-decoration: none;
+    float: right;
+    padding: 8px;
+    margin-top: 0px;
+    border: 1px solid black;
+}
+
+.link:hover {
+    color: white;
+    transition: all 0.4s ease-in;
+}
+
+.link::after {
+    opacity: 0;
+    transition: all 0.3s ease-in;
+    pointer-events: none;
+
+}
+
+.link:hover::after {
+    opacity: 1;
+}
+
+.layout {
+ display: flex;
+ align-content: center;
+ justify-content: center;
+ text-align: center;
+ margin-top: 80px;
+ margin-left: 140px;
+ background-color: white;
+ padding: 20px;
+ width: 75%;
+ border: 2px solid black;
+ border-radius: 5px;
+}
+
+.layout-item {
+margin-left: 50px;
+}
+
+label {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+input {
+    font-size: 20px;
+}
+
+button {
+    margin-right: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    font-weight: bold;
+    background-color:  rgb(141, 101, 10);
+    position: absolute;
+    text-align: center;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+}
